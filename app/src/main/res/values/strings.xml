@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">About Me</string>
+    <string name="app_name">Ang Ee Hoong</string>
     <string name="profile_pic">Profile Picture</string>
+    <string name="what_is_your_nickname">What is your nickname</string>
     <string name="profile_desc">
         Address : 333 Lorong Serai Setia, 1/3 Taman Serai Setia, 09400 Padang Serai Setia, Kedah
         \n Education :
@@ -18,4 +19,5 @@
         \n Nice To Meet You!!!
         \n
     </string>
+    <string name="done">done</string>
 </resources>

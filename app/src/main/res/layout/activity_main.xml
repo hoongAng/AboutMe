@@ -10,10 +10,39 @@
 
     <TextView
         android:id="@+id/textViewName"
+        style="@style/font_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Hello World!"
-        app:fontFamily="@font/roboto"
-        style="@style/font_style" />
+        android:text="@string/app_name"
+        app:fontFamily="@font/roboto" />
+
+    <EditText
+        android:id="@+id/editTextNickName"
+        android:gravity="center"
+        android:autofillHints="@string/app_name"
+        android:hint="@string/what_is_your_nickname"
+        style="@style/NameStyle" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:fontFamily="@font/roboto"
+        android:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/small_padding"
+        android:textAlignment="center"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/imageView"
